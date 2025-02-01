@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    
+   
+    <title>Form tag Day-3 30-01-2025</title>
+    <style>
+      legend,button{
+  font-family: 'Roboto Mono', monospace;
+  background: linear-gradient(145deg, #f3f4f6, #d1d5db);
+  color: #111827;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+    </style>
+</head>
+
+<body>
+
+    <form action="destination">
+        <fieldset>
+            <legend>
+                <h2>Personal Details</h2>
+            </legend>
+            <label for="">Username:</label>
+            <input type="text" name="" id="" required>
+
+            <label for="">Email:</label>
+            <input type="email" name="" id="">
+            <br><br>
+            <label for="">Firstname:</label>
+            <input type="text" name="" id="" required>
+            <label for="">Lastname:</label>
+            <input type="text" name="" id="" required>
+            <br><br>
+            <label for="">Password:</label>
+            <input type="password" name="" id="">
+            <label for="">Mobile:</label>
+            <input type="tel" name="" id="">
+            <br><br>
+            <label for="">Gender:</label>
+            <input type="radio" name="g" id="">Female
+            <input type="radio" name="g" id="">Male
+            <input type="radio" name="g" id="">Other
+            <br><br>
+            <label for="">Address:</label>
+            <br>
+
+            <textarea name="" id="" cols="70" rows="5"></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                <h2>Course Details</h2>
+            </legend>
+            <label for="">Course Mode:</label>
+            <input type="checkbox" name="" id="">Remote
+            <input type="checkbox" name="" id="">Hybrid
+            <input type="checkbox" name="" id="">On-site
+
+            <br><br>
+            <label for="">Course:</label>
+            <select name="" id="">
+                <option value="" disabled selected>--Select Courses--</option>
+                <option value="">Java</option>
+                <option value="">Python</option>
+                <option value="">C</option>
+                <option value="">C++</option>
+            </select>
+            <br><br>
+            <label for="">Choose Technology</label>
+            <select name="" id="">
+                <optgroup label="Front End">
+                    <option value="">HTML</option>
+                    <option value="">CSS</option>
+                    <option value="">Tailwind CSS</option>
+                </optgroup>
+                <optgroup label="Back End">
+                    <option value="">Java</option>
+                    <option value="">Python</option>
+                    <option value="">C</option>
+                    <option value="">C++</option>
+                </optgroup>
+
+            </select>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h2>Education</h2>
+            </legend>
+            <label for="">College Name</label>
+
+
+            <datalist id="college-list">
+                <option value="ABC College"></option>
+                <option value="MNC College"></option>
+                <option value="KHB College"></option>
+                <option value="GVB College"></option>
+            </datalist>
+
+            <input type="text" name="college-list" list="college-list">
+
+            <br>
+            <br>
+            <label for="">Degree</label>
+
+
+            <datalist id="degree-list">
+                <option value="B.Tech"></option>
+                <option value="BE"></option>
+                <option value="B.Sc"></option>
+                <option value="MCA"></option>
+            </datalist>
+
+            <input type="text" name="degree-list" list="degree-list">
+
+            <label for="">Branch/Stream</label>
+            <datalist id="branch-list">
+                <option value="CS/IT"></option>
+                <option value="ME"></option>
+                <option value="EE"></option>
+                <option value="E&TC"></option>
+            </datalist>
+
+            <input type="text" name="branch-list" list="branch-list">
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>
+                <h2>Action</h2>
+            </legend>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
