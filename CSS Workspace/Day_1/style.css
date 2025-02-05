@@ -1,0 +1,45 @@
+*{
+    background-color: beige;
+}
+
+h2{
+    color: brown;
+    background-color: aliceblue;
+}
+.span-class{
+    color: blueviolet;
+    background-color: aqua;
+}
+#para{
+    color: rgb(195, 88, 12);
+    background-color: rgb(9, 236, 160);
+}
+
+input[type="password"]{
+    width: 50px;
+}
+
+h3,h4{
+    color: cornflowerblue;
+    background-color: brown;
+}
+div p{
+    color:rgb(47, 17, 61);
+    background-color: chocolate;
+}
+
+button:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+ul>li{
+    list-style: georgian;
+}
+p::first-line{
+    background-color: aqua;
+}
+
+ul:nth-last-child(){
+    color: aquamarine;
+}

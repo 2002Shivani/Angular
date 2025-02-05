@@ -1,0 +1,60 @@
+*{
+    margin: 2px;
+    padding: 1px;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration:underline double brown;
+    text-shadow:  0px 3px 50px red;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 50px;
+    word-spacing: 15px;
+    text-align:justify;
+    letter-spacing: 2px;
+    font-style:italic;
+    white-space: wrap;
+    
+}
+p::first-line{
+    text-transform:uppercase;
+}
+.outer{
+    width: 500px;
+   
+    border: 1px solid sandybrown;
+}
+.outer2{
+    display:inline-flex;
+}
+.inner{
+    width: 50%;
+    border: 1px solid rgb(29, 27, 25);
+}
+.inner2{
+    width: 50%;
+    border: 1px solid rgb(241, 132, 24);
+}
+.inner2>p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    font-weight: 100;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: darkmagenta;
+    white-space: wrap;
+    text-align: center;
+    text-decoration: underline dotted;
+    font-style: initial;
+    text-shadow: 0px 2px 4px black;
+    text-transform:capitalize;
+}
